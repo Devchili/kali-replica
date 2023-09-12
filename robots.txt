@@ -1,3 +1,3 @@
 User-agent: *
-Disallow: /foundme.html
+Disallow: /foundme.txt
 
