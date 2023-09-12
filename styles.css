@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    background-color: #000;
+    font-family: 'Courier New', monospace;
+}
+
+.terminal {
+    background-color: #000;
+    color: #00FF00;
+    font-family: 'Courier New', monospace;
+    padding: 20px;
+    border: 2px solid #00FF00;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 600px;
+    margin: 50px auto;
+}
+.hidden-text {
+    display: none;
+}
+.prompt {
+    color: #00FF00;
+}
+
+.user {
+    font-weight: bold;
+}
+
+.host {
+    color: #FF0000;
+}
+
+.directory {
+    color: #0000FF;
+}
+
+input[type="text"] {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #00FF00;
+    font-family: 'Courier New', monospace;
+    width: 90%;
+}
+
+pre {
+    white-space: pre-wrap;
+    margin-top: 10px;
+}

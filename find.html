@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kali Linux Terminal</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        h1 {
+          font-family: 'zer0day', sans-serif;
+          font-size: 36px;
+          color: #00FF00;
+          text-align: center;
+        }
+      </style>
+</head>
+<body>
+    <h1>zer0day</h1>
+    <div class="terminal">
+
+        <div class="prompt">
+            <span class="user">root</span>@<span class="host">kali</span>:<span class="directory">~</span>$ 
+            <input type="text" id="input" autofocus placeholder="Find the flag">
+        </div>
+        
+        <pre id="output"></pre>
+        <div class="hidden-text">Great! But I'm not here. Look for others for clues.</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
